@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API_URL = process.env.NODE_ENV === "production"
 ? "https://mern-vercel-ochre.vercel.app"
-: "http://localhost:8000";
+: `http://localhost:5000`;
 
 
 export const host = `${API_URL}`;
