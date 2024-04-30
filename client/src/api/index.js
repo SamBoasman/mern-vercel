@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL = process.env.NODE_ENV === "production"
-? "https://talku-copy.vercel.app"
+? "https://mern-vercel-ochre.vercel.app"
 : "http://localhost:8000";
 
 
